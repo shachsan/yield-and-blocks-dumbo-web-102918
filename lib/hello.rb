@@ -11,4 +11,4 @@ def hello_t(arr)
 end
 
 # call your method here!
-hello_t(names) {|name| puts name}
+hello_t(["Tim", "Tom", "Jim"]) {|name| puts name}
